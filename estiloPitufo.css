@@ -1,0 +1,94 @@
+/* Fondo general - Azul muy oscuro tipo Cinépolis */
+        body {
+            background: linear-gradient(to bottom, #001730, #000a14);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #001f40;
+            padding: 20px;
+            border-bottom: 4px solid #ffcc00; /* Amarillo Cinépolis */
+            text-align: center;
+        }
+
+        header h1 {
+            color: #ffcc00; /* Amarillo Cinépolis */
+            font-size: 40px;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        /* Sección principal */
+        .seccion-web2 {
+            padding: 30px;
+            margin: 20px;
+            background-color: rgba(0, 31, 64, 0.7);
+            border-radius: 10px;
+            border: 2px solid #ffcc00;
+        }
+
+        /* Lista de horarios */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #002a5a;
+            margin: 8px 0;
+            padding: 10px;
+            border-left: 5px solid #ffcc00;
+            border-radius: 5px;
+        }
+
+        /* Video */
+        iframe {
+            border: 4px solid #ffcc00;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 204, 0, 0.5);
+            margin: 20px 0;
+        }
+
+        /* Descripción */
+        strong {
+            color: #ffcc00;
+            font-size: 20px;
+        }
+
+        /* Botones */
+        button {
+            background-color: #ffcc00; /* Botón amarillo */
+            border: 2px solid #ffcc00;
+            padding: 10px 20px;
+            margin: 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button a {
+            color: #001f40; /* Texto oscuro para contrastar con el amarillo */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: transparent;
+            border-color: #ffcc00;
+        }
+        
+        button:hover a {
+            color: #ffcc00; /* El texto se vuelve amarillo al hacer hover */
+        }
+
+        /* Footer */
+        footer {
+            background-color: #000814;
+            text-align: center;
+            padding: 15px;
+            border-top: 3px solid #ffcc00;
+            margin-top: 20px;
+        }
