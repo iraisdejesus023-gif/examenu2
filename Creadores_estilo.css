@@ -1,0 +1,40 @@
+header, footer{
+    padding: 1em;
+    color: goldenrod;
+    background-color: navy;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin:0;
+    padding: 1em;
+}
+
+article{
+    margin-left: 170 px;
+    border-left: 2px solid goldenrod;
+    padding: 1em;
+    overflow: hidden;
+    min-height: 388.5px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 30%;
+    margin: auto;
+}
+
+table tr:first-child{
+    background-color: darkred;
+    color: goldenrod;
+    font-weight: bold;
+}
+
+th, td{
+    border: 1px solid darkred;
+    padding: 8px;
+    text-align: center;
+}
